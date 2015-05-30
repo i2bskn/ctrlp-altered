@@ -1,0 +1,31 @@
+*ctrlp-altered.txt* ctrlp.vim extension for recently modified file.
+
+Author : i2bskn <i2bskn@gmail.com>
+LICENSE: MIT
+
+==============================================================================
+CONTENTS                                                *ctrlp-altered-contents*
+
+Introduction	|ctrlp-altered-introduction|
+Options		|ctrlp-altered-options|
+Usage		|ctrlp-altered-usage|
+
+==============================================================================
+INTRODUCTION                                        *ctrlp-altered-introduction*
+
+ctrlp.vim extension for recently modified file.
+
+==============================================================================
+OPTIONS                                                  *ctrlp-altered-options*
+
+                                                   *g:ctrlp_altered_commit_size*
+Number of commits go back to look for modified files.
+example(default): >
+
+	let g:g:ctrlp_altered_commit_size = 5
+<
+==============================================================================
+USAGE                                                      *ctrlp-altered-usage*
+
+==============================================================================
+vim:tw=78:ts=8:ft=help:norl:noet:fen:fdl=0:
